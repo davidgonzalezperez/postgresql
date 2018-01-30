@@ -82,6 +82,9 @@
     </c:forEach>
     
     
+    <br>
+    <a href="<c:url value="priceincrease.htm"/>">Increase Prices</a>
+    <br>
     
 <p>La hora actual es <c:out value="${model.now}"/></p>
 
