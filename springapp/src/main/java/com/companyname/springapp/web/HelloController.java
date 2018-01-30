@@ -33,9 +33,11 @@ public class HelloController {
     public ModelAndView llamarServicios(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
+    	String nombre="david";
+    	
         logger.info("Returning hello view de servicios");
 
-        return new ModelAndView("WEB-INF/views/Servicios.jsp");
+        return new ModelAndView("WEB-INF/views/Servicios.jsp","minombre",nombre);
     
 }
 }
